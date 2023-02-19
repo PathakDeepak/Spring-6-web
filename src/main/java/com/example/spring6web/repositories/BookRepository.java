@@ -1,0 +1,12 @@
+package com.example.spring6web.repositories;
+
+import com.example.spring6web.domain.Book;
+import org.springframework.data.repository.CrudRepository;
+
+/**
+ * @author valar_morghulis on 19/02/23.
+ * @project spring-6-web
+ * @description
+ */
+public interface BookRepository extends CrudRepository<Book, Long> {
+}
